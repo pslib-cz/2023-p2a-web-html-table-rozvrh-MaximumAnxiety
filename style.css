@@ -1,0 +1,72 @@
+/*
+
+
+
+table
+{
+    
+
+}
+td
+{
+  
+  
+}
+
+th
+{
+   
+}
+ 
+tr
+{
+   
+}
+
+*/
+html
+{
+    --col1: #B35900;
+    --col2: #2f4147;
+    --col3: #12161b;
+    --col4: #5b6b70;
+
+    --tableBg: rgb(209, 209, 235);
+}
+
+.smol {
+    font-size: 0.5em;
+    font-weight: 400;
+}
+body {
+    font-size: 1.5rem;
+}
+
+
+
+table {
+    border-collapse: separate;
+    
+    border-spacing: 0.2em; 
+   
+     background-color: var(--tableBg); 
+}
+
+tr {
+    height: 2rem;
+}
+td {
+    margin: 1em;
+    line-height: .2em;
+    background-color: aliceblue;
+ 
+}
+
+th {
+    background-color: var(--col4);
+    color: white;
+    margin: 1em;
+    line-height: .2em;
+    height: 1rem;
+}
+
